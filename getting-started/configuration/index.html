@@ -1,9 +1,9 @@
 <!doctype html><html class=no-js lang=en>
 <head>
 <meta charset=utf-8>
-<link rel=preload href=https://gohugo.io/fonts/muli-latin-200.woff2 as=font type=font/woff2 crossorigin>
-<link rel=preload href=https://gohugo.io/fonts/muli-latin-400.woff2 as=font type=font/woff2 crossorigin>
-<link rel=preload href=https://gohugo.io/fonts/muli-latin-800.woff2 as=font type=font/woff2 crossorigin>
+<link rel=preload href=https://mc.is-local.org/docs/fonts/muli-latin-200.woff2 as=font type=font/woff2 crossorigin>
+<link rel=preload href=https://mc.is-local.org/docs/fonts/muli-latin-400.woff2 as=font type=font/woff2 crossorigin>
+<link rel=preload href=https://mc.is-local.org/docs/fonts/muli-latin-800.woff2 as=font type=font/woff2 crossorigin>
 <meta http-equiv=X-UA-Compatible content="IE=edge">
 <title>
 Configure Hugo | Hugo
@@ -11,12 +11,12 @@ Configure Hugo | Hugo
 <meta name=viewport content="width=device-width,minimum-scale=1">
 <meta name=generator content="Hugo 0.128.2">
 <meta name=robots content="index, follow">
-<link rel=stylesheet href=/output/css/app.min.f5631eeeca4e467026e4115898af115d1dda1767791c22841d02b8a556b2ad5c.css integrity="sha256-9WMe7spORnAm5BFYmK8RXR3aF2d5HCKEHQK4pVayrVw=" crossorigin=anonymous>
+<link rel=stylesheet href=/docs/output/css/app.min.f5631eeeca4e467026e4115898af115d1dda1767791c22841d02b8a556b2ad5c.css integrity="sha256-9WMe7spORnAm5BFYmK8RXR3aF2d5HCKEHQK4pVayrVw=" crossorigin=anonymous>
 <meta name=description content="
         How to configure your Hugo site.
       
       ">
-<script type=text/javascript src=/output/js/app.5a802739f9b2407f0d3a1f84a20731b6705a5a4df051c35686f22bd3aea90731.js integrity="sha256-WoAnOfmyQH8NOh+EogcxtnBaWk3wUcNWhvIr066pBzE=" crossorigin=anonymous defer></script>
+<script type=text/javascript src=/docs/output/js/app.5a802739f9b2407f0d3a1f84a20731b6705a5a4df051c35686f22bd3aea90731.js integrity="sha256-WoAnOfmyQH8NOh+EogcxtnBaWk3wUcNWhvIr066pBzE=" crossorigin=anonymous defer></script>
 <script async defer src=https://buttons.github.io/buttons.js></script>
 <link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
 <link rel=icon type=image/png href=/favicon-32x32.png sizes=32x32>
@@ -27,20 +27,20 @@ Configure Hugo | Hugo
 <meta property="og:title" content="Configure Hugo">
 <meta property="og:description" content="How to configure your Hugo site.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://gohugo.io/getting-started/configuration/"><meta property="og:image" content="https://gohugo.io/opengraph/gohugoio-card-base-1_huf001e7df4fd9c00c4355abac7d4ca455_242906_filter_10905119886565882197.png"><meta property="article:section" content="getting-started">
+<meta property="og:url" content="https://mc.is-local.org/docs/getting-started/configuration/"><meta property="og:image" content="https://mc.is-local.org/docs/opengraph/gohugoio-card-base-1_huf001e7df4fd9c00c4355abac7d4ca455_242906_filter_10905119886565882197.png"><meta property="article:section" content="getting-started">
 <meta property="article:modified_time" content="2024-07-05T11:38:03+08:00">
 <meta itemprop=name content="Configure Hugo">
 <meta itemprop=description content="How to configure your Hugo site.">
 <meta itemprop=dateModified content="2024-07-05T11:38:03+08:00">
 <meta itemprop=wordCount content="5847">
-<meta itemprop=image content="https://gohugo.io/images/gohugoio-card.png">
+<meta itemprop=image content="https://mc.is-local.org/docs/images/gohugoio-card.png">
 <meta itemprop=keywords content="configuration,toml,yaml,json"><meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://gohugo.io/opengraph/gohugoio-card-base-1_huf001e7df4fd9c00c4355abac7d4ca455_242906_filter_10905119886565882197.png">
+<meta name=twitter:image content="https://mc.is-local.org/docs/opengraph/gohugoio-card-base-1_huf001e7df4fd9c00c4355abac7d4ca455_242906_filter_10905119886565882197.png">
 <meta name=twitter:title content="Configure Hugo">
 <meta name=twitter:description content="How to configure your Hugo site.">
 <meta name=twitter:site content="@GoHugoIOv2">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBZGKNMDWC"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-MBZGKNMDWC",{anonymize_ip:!0,dimension1:"gohugo.io",dimension2:""});var trackOutboundLink=function(e){gtag("event","click",{event_category:"outbound",event_label:e,transport_type:"beacon"})}</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-MBZGKNMDWC",{anonymize_ip:!0,dimension1:"mc.is-local.org",dimension2:""});var trackOutboundLink=function(e){gtag("event","click",{event_category:"outbound",event_label:e,transport_type:"beacon"})}</script>
 </head>
 <body class="ma0 sans-serif bg-primary-color-light">
 <nav class="bg-primary-color-dark pv4 w-100" role=navigation>
@@ -52,12 +52,12 @@ HUGO
 </h1>
 <ul class="list ma0 pa0 dn dib-l" role=menu>
 <li class="f5 dib mr4" role=menuitem>
-<a href=/news/ class="dim link light-silver">
+<a href=/docs/news/ class="dim link light-silver">
 News
 </a>
 </li>
 <li class="f5 dib mr4" role=menuitem>
-<a href=/documentation/ class="dim link light-silver">
+<a href=/docs/documentation/ class="dim link light-silver">
 Docs
 </a>
 </li>
@@ -67,7 +67,7 @@ Themes
 </a>
 </li>
 <li class="f5 dib mr4" role=menuitem>
-<a href=/showcase/ class="dim link light-silver">
+<a href=/docs/showcase/ class="dim link light-silver">
 Showcase
 </a>
 </li>
@@ -113,32 +113,32 @@ GitHub
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.about>About</a>
 <ul class="about desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/about/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/about/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/about/introduction/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/about/introduction/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Introduction
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/about/features/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/about/features/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Features
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/about/privacy/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/about/privacy/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Privacy
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/about/security/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/about/security/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Security
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/about/license/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/about/license/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 License
 </a>
 </li>
@@ -148,27 +148,27 @@ License
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.installation>Installation</a>
 <ul class="installation desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/installation/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/installation/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/installation/macos/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/installation/macos/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 macOS
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/installation/linux/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/installation/linux/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Linux
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/installation/windows/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/installation/windows/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Windows
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/installation/bsd/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/installation/bsd/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 BSD
 </a>
 </li>
@@ -178,42 +178,42 @@ BSD
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 primary-color" data-target=.getting-started>Getting started</a>
 <ul class="getting-started desktopmenu animated fadeIn list pl0 bg-light-gray db">
 <li class="f6 fw4">
-<a href=/getting-started/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/getting-started/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/getting-started/quick-start/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/getting-started/quick-start/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Quick start
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/getting-started/usage/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/getting-started/usage/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Basic usage
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/getting-started/directory-structure/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/getting-started/directory-structure/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Directory structure
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/getting-started/configuration/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color">
+<a href=/docs/getting-started/configuration/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color">
 Configuration
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/getting-started/configuration-markup/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/getting-started/configuration-markup/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Configure markup
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/getting-started/glossary/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/getting-started/glossary/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Glossary of terms
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/getting-started/external-learning-resources/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/getting-started/external-learning-resources/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 External learning resources
 </a>
 </li>
@@ -223,27 +223,27 @@ External learning resources
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.quick-reference>Quick reference</a>
 <ul class="quick-reference desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/quick-reference/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/quick-reference/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/quick-reference/emojis/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/quick-reference/emojis/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Emojis
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/quick-reference/functions/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/quick-reference/functions/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Functions
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/quick-reference/methods/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/quick-reference/methods/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Methods
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/quick-reference/page-collections/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/quick-reference/page-collections/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Page collections
 </a>
 </li>
@@ -253,132 +253,132 @@ Page collections
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.content-management>Content management</a>
 <ul class="content-management desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/content-management/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/organization/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/organization/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Organization
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/page-bundles/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/page-bundles/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Page bundles
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/formats/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/formats/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Content formats
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/front-matter/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/front-matter/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Front matter
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/build-options/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/build-options/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Build options
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/page-resources/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/page-resources/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Page resources
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/image-processing/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/image-processing/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Image processing
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/shortcodes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/shortcodes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Shortcodes
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/related/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/related/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Related content
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/sections/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/sections/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Sections
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/types/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/types/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Content types
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/archetypes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/archetypes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Archetypes
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/taxonomies/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/taxonomies/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Taxonomies
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/summaries/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/summaries/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Summaries
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/cross-references/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/cross-references/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Links and cross references
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/urls/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/urls/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 URL management
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/menus/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/menus/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Menus
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/comments/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/comments/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Comments
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/multilingual/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/multilingual/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Multilingual
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/markdown-attributes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/markdown-attributes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Markdown attributes
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/syntax-highlighting/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/syntax-highlighting/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Syntax highlighting
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/diagrams/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/diagrams/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Diagrams
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/mathematics/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/mathematics/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Mathematics
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/data-sources/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/data-sources/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Data sources
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/content-management/content-adapters/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/content-management/content-adapters/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Content adapters
 </a>
 </li>
@@ -388,107 +388,107 @@ Content adapters
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.templates>Templates</a>
 <ul class="templates desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/templates/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/introduction/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/introduction/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Introduction
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/types/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/types/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Template types
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/lookup-order/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/lookup-order/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Lookup order
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/base/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/base/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Base templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/home/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/home/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Home templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/single/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/single/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Single templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/section/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/section/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Section templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/taxonomy/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/taxonomy/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Taxonomy templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/term/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/term/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Term templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/partial/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/partial/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Partial templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/content-view/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/content-view/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Content view templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/shortcode/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/shortcode/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Shortcode templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/sitemap/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/sitemap/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Sitemap templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/rss/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/rss/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 RSS templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/404/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/404/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 404 templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/robots/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/robots/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 robots.txt templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/menu/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/menu/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Menus
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/pagination/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/pagination/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Pagination
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/embedded/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/embedded/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Embedded templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/templates/output-formats/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/templates/output-formats/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Custom output formats
 </a>
 </li>
@@ -498,157 +498,157 @@ Custom output formats
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.functions>Functions</a>
 <ul class="functions desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/functions/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/cast/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/cast/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 cast
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/collections/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/collections/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 collections
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/compare/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/compare/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 compare
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/crypto/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/crypto/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 crypto
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/css/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/css/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 css
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/data/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/data/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 data
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/debug/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/debug/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 debug
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/diagrams/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/diagrams/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 diagrams
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/encoding/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/encoding/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 encoding
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/fmt/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/fmt/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 fmt
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/global/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/global/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 global
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/go-template/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/go-template/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 go template
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/hugo/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/hugo/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 hugo
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/images/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/images/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 images
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/inflect/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/inflect/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 inflect
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/js/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/js/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 js
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/lang/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/lang/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 lang
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/math/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/math/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 math
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/openapi3/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/openapi3/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 openapi3
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/os/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/os/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 os
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/partials/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/partials/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 partials
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/path/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/path/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 path
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/reflect/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/reflect/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 reflect
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/resources/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/resources/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 resources
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/safe/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/safe/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 safe
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/strings/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/strings/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 strings
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/templates/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/templates/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 templates
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/time/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/time/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 time
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/transform/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/transform/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 transform
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/functions/urls/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/functions/urls/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 urls
 </a>
 </li>
@@ -658,62 +658,62 @@ urls
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.methods>Methods</a>
 <ul class="methods desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/methods/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/duration/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/duration/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Duration
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/menu/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/menu/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Menu
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/menu-entry/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/menu-entry/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Menu entry
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/page/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/page/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Page
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/pager/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/pager/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Pager
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/pages/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/pages/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Pages
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/resource/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/resource/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Resource
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/shortcode/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/shortcode/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Shortcode
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/site/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/site/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Site
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/taxonomy/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/taxonomy/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Taxonomy
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/methods/time/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/methods/time/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Time
 </a>
 </li>
@@ -723,32 +723,32 @@ Time
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.render-hooks>Render hooks</a>
 <ul class="render-hooks desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/render-hooks/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/render-hooks/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/render-hooks/introduction/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/render-hooks/introduction/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Introduction
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/render-hooks/code-blocks/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/render-hooks/code-blocks/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Code blocks
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/render-hooks/headings/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/render-hooks/headings/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Headings
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/render-hooks/images/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/render-hooks/images/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Images
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/render-hooks/links/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/render-hooks/links/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Links
 </a>
 </li>
@@ -758,22 +758,22 @@ Links
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.modules>Hugo Modules</a>
 <ul class="modules desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/hugo-modules/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-modules/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-modules/configuration/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-modules/configuration/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Configure Hugo modules
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-modules/use-modules/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-modules/use-modules/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Use Hugo Modules
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-modules/theme-components/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-modules/theme-components/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Theme components
 </a>
 </li>
@@ -783,105 +783,105 @@ Theme components
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.hugo-pipes>Hugo Pipes</a>
 <ul class="hugo-pipes desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/hugo-pipes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/introduction/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/introduction/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Introduction
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/transpile-sass-to-css/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/transpile-sass-to-css/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Transpile Sass to CSS
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/postcss/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/postcss/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 PostCSS
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/postprocess/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/postprocess/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 PostProcess
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/js/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/js/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 JavaScript building
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/babel/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/babel/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Babel
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/minification/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/minification/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Asset minification
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/bundling/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/bundling/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Concatenating assets
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/fingerprint/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/fingerprint/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Fingerprinting and SRI hashing
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/resource-from-string/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/resource-from-string/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Resource from string
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hugo-pipes/resource-from-template/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hugo-pipes/resource-from-template/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Resource from template
 </a>
 </li>
 </ul>
 </li>
 <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8 mb1 bb b--moon-gray">
-<a href=/commands/ class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.commands>CLI</a>
+<a href=/docs/commands/ class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.commands>CLI</a>
 </li>
 <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.troubleshooting>Troubleshooting</a>
 <ul class="troubleshooting desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/troubleshooting/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/troubleshooting/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/troubleshooting/audit/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/troubleshooting/audit/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Audit
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/troubleshooting/logging/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/troubleshooting/logging/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Logging
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/troubleshooting/inspection/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/troubleshooting/inspection/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Inspection
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/troubleshooting/deprecation/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/troubleshooting/deprecation/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Deprecation
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/troubleshooting/performance/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/troubleshooting/performance/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Performance
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/troubleshooting/faq/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/troubleshooting/faq/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 FAQs
 </a>
 </li>
@@ -891,32 +891,32 @@ FAQs
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.developer-tools>Developer tools</a>
 <ul class="developer-tools desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/tools/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/tools/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/tools/editors/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/tools/editors/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Editor plugins
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/tools/front-ends/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/tools/front-ends/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Front-ends
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/tools/search/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/tools/search/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Search
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/tools/migrations/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/tools/migrations/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Migrations
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/tools/other/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/tools/other/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Other projects
 </a>
 </li>
@@ -926,72 +926,72 @@ Other projects
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.hosting-and-deployment>Hosting and deployment</a>
 <ul class="hosting-and-deployment desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hugo-deploy/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hugo-deploy/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Hugo Deploy
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/deployment-with-rclone/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/deployment-with-rclone/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Deploy with Rclone
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/deployment-with-rsync/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/deployment-with-rsync/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Deploy with Rsync
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-21yunbox/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-21yunbox/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on 21YunBox
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-aws-amplify/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-aws-amplify/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on AWS Amplify
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-azure-static-web-apps/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-azure-static-web-apps/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on Azure Static Web Apps
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-cloudflare-pages/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-cloudflare-pages/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on Cloudflare Pages
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-firebase/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-firebase/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on Firebase
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-github/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-github/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on GitHub Pages
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-gitlab/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-gitlab/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on GitLab Pages
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-keycdn/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-keycdn/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on KeyCDN
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-netlify/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-netlify/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on Netlify
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/hosting-and-deployment/hosting-on-render/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/hosting-and-deployment/hosting-on-render/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Host on Render
 </a>
 </li>
@@ -1001,29 +1001,29 @@ Host on Render
 <a href=javascript:void(0) class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.contribute>Contribute</a>
 <ul class="contribute desktopmenu animated fadeIn list pl0 bg-light-gray dn">
 <li class="f6 fw4">
-<a href=/contribute/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/contribute/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 In this section
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/contribute/development/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/contribute/development/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Development
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/contribute/documentation/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/contribute/documentation/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Documentation
 </a>
 </li>
 <li class="f6 fw4">
-<a href=/contribute/themes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
+<a href=/docs/contribute/themes/ class="db link hover-bg-gray hover-white pl3 pr2 pv2 black">
 Themes
 </a>
 </li>
 </ul>
 </li>
 <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-<a href=/maintenance/ class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.>Maintenance</a>
+<a href=/docs/maintenance/ class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2" data-target=.>Maintenance</a>
 </li>
 </ul>
 </nav>
@@ -1129,7 +1129,7 @@ json
 </div>
 </aside>
 <h2 id=configuration-directory>Configuration directory <a class=header-link href=#configuration-directory><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h2>
-<p>Instead of a single site configuration file, split your configuration by <a href=/getting-started/glossary/#environment>environment</a>, root configuration key, and language. For example:</p>
+<p>Instead of a single site configuration file, split your configuration by <a href=/docs/getting-started/glossary/#environment>environment</a>, root configuration key, and language. For example:</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-text data-lang=text><span class=line><span class=cl>my-project/
 </span></span><span class=line><span class=cl>└── config/
 </span></span><span class=line><span class=cl>    ├── _default/
@@ -1651,13 +1651,13 @@ json
 </div>
 <h2 id=all-configuration-settings>All configuration settings <a class=header-link href=#all-configuration-settings><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h2>
 <h6 id=archetypedir>archetypeDir <a class=header-link href=#archetypedir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>string</code>) The directory where Hugo finds archetype files (content templates). Default is <code>archetypes</code>. Also see <a href=/hugo-modules/configuration/#module-configuration-mounts>Module Mounts Config</a> for an alternative way to configure this directory (from Hugo 0.56).</p>
+<p>(<code>string</code>) The directory where Hugo finds archetype files (content templates). Default is <code>archetypes</code>. Also see <a href=/docs/hugo-modules/configuration/#module-configuration-mounts>Module Mounts Config</a> for an alternative way to configure this directory (from Hugo 0.56).</p>
 <h6 id=assetdir>assetDir <a class=header-link href=#assetdir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>string</code>) The directory where Hugo finds asset files used in <a href=/hugo-pipes/>Hugo Pipes</a>. Default is <code>assets</code>. Also see <a href=/hugo-modules/configuration/#module-configuration-mounts>Module Mounts Config</a> for an alternative way to configure this directory (from Hugo 0.56).</p>
+<p>(<code>string</code>) The directory where Hugo finds asset files used in <a href=/docs/hugo-pipes/>Hugo Pipes</a>. Default is <code>assets</code>. Also see <a href=/docs/hugo-modules/configuration/#module-configuration-mounts>Module Mounts Config</a> for an alternative way to configure this directory (from Hugo 0.56).</p>
 <h6 id=baseurl>baseURL <a class=header-link href=#baseurl><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) The absolute URL (protocol, host, path, and trailing slash) of your published site (e.g., <code>https://www.example.org/docs/</code>).</p>
 <h6 id=build>build <a class=header-link href=#build><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/getting-started/configuration/#configure-build>Configure Build</a>.</p>
+<p>See <a href=/docs/getting-started/configuration/#configure-build>Configure Build</a>.</p>
 <h6 id=builddrafts>buildDrafts <a class=header-link href=#builddrafts><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Include drafts when building. Default is <code>false</code>.</p>
 <h6 id=buildexpired>buildExpired <a class=header-link href=#buildexpired><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
@@ -1665,28 +1665,28 @@ json
 <h6 id=buildfuture>buildFuture <a class=header-link href=#buildfuture><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Include content with a future publication date. Default is <code>false</code>.</p>
 <h6 id=caches>caches <a class=header-link href=#caches><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/getting-started/configuration/#configure-file-caches>Configure File Caches</a>.</p>
+<p>See <a href=/docs/getting-started/configuration/#configure-file-caches>Configure File Caches</a>.</p>
 <h6 id=capitalizelisttitles>capitalizeListTitles <a class=header-link href=#capitalizelisttitles><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <a class="dib f5 fw6 ba bw1 b--gray ph2 mt1" href=https://github.com/gohugoio/hugo/releases/tag/v0.123.3>New in v0.123.3</a>
-<p>(<code>bool</code>) Whether to capitalize automatic list titles. Applicable to section, taxonomy, and term pages. Default is <code>true</code>. You can change the capitalization style in your site configuration to one of <code>ap</code>, <code>chicago</code>, <code>go</code>, <code>firstupper</code>, or <code>none</code>. See <a href=/getting-started/configuration/#configure-title-case>details</a>.</p>
+<p>(<code>bool</code>) Whether to capitalize automatic list titles. Applicable to section, taxonomy, and term pages. Default is <code>true</code>. You can change the capitalization style in your site configuration to one of <code>ap</code>, <code>chicago</code>, <code>go</code>, <code>firstupper</code>, or <code>none</code>. See <a href=/docs/getting-started/configuration/#configure-title-case>details</a>.</p>
 <h6 id=cascade>cascade <a class=header-link href=#cascade><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>Pass down default configuration values (front matter) to pages in the content tree. The options in site config is the same as in page front matter, see <a href=/content-management/front-matter/#cascade>Front Matter Cascade</a>.</p>
+<p>Pass down default configuration values (front matter) to pages in the content tree. The options in site config is the same as in page front matter, see <a href=/docs/content-management/front-matter/#cascade>Front Matter Cascade</a>.</p>
 <aside>
 <div class="admonition-content bl bw2 b--blue">
-<p>For a website in a single language, define the <code>[[cascade]]</code> in <a href=/content-management/front-matter/#cascade>Front Matter</a>. For a multilingual website, define the <code>[[cascade]]</code> in <a href=/getting-started/configuration/#cascade>Site Config</a>.</p>
+<p>For a website in a single language, define the <code>[[cascade]]</code> in <a href=/docs/content-management/front-matter/#cascade>Front Matter</a>. For a multilingual website, define the <code>[[cascade]]</code> in <a href=/docs/getting-started/configuration/#cascade>Site Config</a>.</p>
 <p>To remain consistent and prevent unexpected behavior, do not mix these strategies.</p>
 </div>
 </aside>
 <h6 id=canonifyurls>canonifyURLs <a class=header-link href=#canonifyurls><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>bool</code>) See <a href=/content-management/urls/#canonical-urls>details</a> before enabling this feature. Default is <code>false</code>.</p>
+<p>(<code>bool</code>) See <a href=/docs/content-management/urls/#canonical-urls>details</a> before enabling this feature. Default is <code>false</code>.</p>
 <h6 id=cleandestinationdir>cleanDestinationDir <a class=header-link href=#cleandestinationdir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) When building, removes files from destination not found in static directories. Default is <code>false</code>.</p>
 <h6 id=contentdir>contentDir <a class=header-link href=#contentdir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>string</code>) The directory from where Hugo reads content files. Default is <code>content</code>. Also see <a href=/hugo-modules/configuration/#module-configuration-mounts>Module Mounts Config</a> for an alternative way to configure this directory (from Hugo 0.56).</p>
+<p>(<code>string</code>) The directory from where Hugo reads content files. Default is <code>content</code>. Also see <a href=/docs/hugo-modules/configuration/#module-configuration-mounts>Module Mounts Config</a> for an alternative way to configure this directory (from Hugo 0.56).</p>
 <h6 id=copyright>copyright <a class=header-link href=#copyright><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) Copyright notice for your site, typically displayed in the footer.</p>
 <h6 id=datadir>dataDir <a class=header-link href=#datadir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>string</code>) The directory from where Hugo reads data files. Default is <code>data</code>. Also see <a href=/hugo-modules/configuration/#module-configuration-mounts>Module Mounts Config</a> for an alternative way to configure this directory (from Hugo 0.56).</p>
+<p>(<code>string</code>) The directory from where Hugo reads data files. Default is <code>data</code>. Also see <a href=/docs/hugo-modules/configuration/#module-configuration-mounts>Module Mounts Config</a> for an alternative way to configure this directory (from Hugo 0.56).</p>
 <h6 id=defaultcontentlanguage>defaultContentLanguage <a class=header-link href=#defaultcontentlanguage><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) Content without language indicator will default to this language. Default is <code>en</code>.</p>
 <h6 id=defaultcontentlanguageinsubdir>defaultContentLanguageInSubdir <a class=header-link href=#defaultcontentlanguageinsubdir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
@@ -1696,13 +1696,13 @@ json
 <h6 id=disablehugogeneratorinject>disableHugoGeneratorInject <a class=header-link href=#disablehugogeneratorinject><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Hugo will, by default, inject a generator meta tag in the HTML head on the <em>home page only</em>. You can turn it off, but we would really appreciate if you don&rsquo;t, as this is a good way to watch Hugo&rsquo;s popularity on the rise. Default is <code>false</code>.</p>
 <h6 id=disablekinds>disableKinds <a class=header-link href=#disablekinds><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>string slice</code>) Disable rendering of the specified page <a href=/getting-started/glossary/#page-kind>kinds</a>, any of <code>404</code>, <code>home</code>, <code>page</code>, <code>robotstxt</code>, <code>rss</code>, <code>section</code>, <code>sitemap</code>, <code>taxonomy</code>, or <code>term</code>.</p>
+<p>(<code>string slice</code>) Disable rendering of the specified page <a href=/docs/getting-started/glossary/#page-kind>kinds</a>, any of <code>404</code>, <code>home</code>, <code>page</code>, <code>robotstxt</code>, <code>rss</code>, <code>section</code>, <code>sitemap</code>, <code>taxonomy</code>, or <code>term</code>.</p>
 <h6 id=disablelivereload>disableLiveReload <a class=header-link href=#disablelivereload><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Disable automatic live reloading of browser window. Default is <code>false</code>.</p>
 <h6 id=disablepathtolower>disablePathToLower <a class=header-link href=#disablepathtolower><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Do not convert the url/path to lowercase. Default is <code>false</code>.</p>
 <h6 id=enableemoji>enableEmoji <a class=header-link href=#enableemoji><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>bool</code>) Enable Emoji emoticons support for page content; see the <a href=/quick-reference/emojis/>emoji shortcode quick reference guide</a>. Default is <code>false</code>.</p>
+<p>(<code>bool</code>) Enable Emoji emoticons support for page content; see the <a href=/docs/quick-reference/emojis/>emoji shortcode quick reference guide</a>. Default is <code>false</code>.</p>
 <h6 id=enablegitinfo>enableGitInfo <a class=header-link href=#enablegitinfo><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Enable <code>.GitInfo</code> object for each page (if the Hugo site is versioned by Git). This will then update the <code>Lastmod</code> parameter for each page using the last git commit date for that content file. Default is <code>false</code>.</p>
 <h6 id=enablemissingtranslationplaceholders>enableMissingTranslationPlaceholders <a class=header-link href=#enablemissingtranslationplaceholders><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
@@ -1710,11 +1710,11 @@ json
 <h6 id=enablerobotstxt>enableRobotsTXT <a class=header-link href=#enablerobotstxt><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Enable generation of <code>robots.txt</code> file. Default is <code>false</code>.</p>
 <h6 id=frontmatter>frontmatter <a class=header-link href=#frontmatter><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/getting-started/configuration/#configure-front-matter>Front matter Configuration</a>.</p>
+<p>See <a href=/docs/getting-started/configuration/#configure-front-matter>Front matter Configuration</a>.</p>
 <h6 id=hascjklanguage>hasCJKLanguage <a class=header-link href=#hascjklanguage><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) If true, auto-detect Chinese/Japanese/Korean Languages in the content. This will make <code>.Summary</code> and <code>.WordCount</code> behave correctly for CJK languages. Default is <code>false</code>.</p>
 <h6 id=imaging>imaging <a class=header-link href=#imaging><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/content-management/image-processing/#imaging-configuration>image processing configuration</a>.</p>
+<p>See <a href=/docs/content-management/image-processing/#imaging-configuration>image processing configuration</a>.</p>
 <h6 id=languagecode>languageCode <a class=header-link href=#languagecode><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) A language tag as defined by <a href=https://datatracker.ietf.org/doc/html/rfc5646 rel=external>RFC 5646</a>. This value is used to populate:</p>
 <ul>
@@ -1724,19 +1724,19 @@ json
 </ul>
 <p>When present in the root of the configuration, this value is ignored if one or more language keys exists. Please specify this value independently for each language key.</p>
 <h6 id=languages>languages <a class=header-link href=#languages><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/content-management/multilingual/#configure-languages>Configure Languages</a>.</p>
+<p>See <a href=/docs/content-management/multilingual/#configure-languages>Configure Languages</a>.</p>
 <h6 id=disablelanguages>disableLanguages <a class=header-link href=#disablelanguages><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/content-management/multilingual/#disable-a-language>Disable a Language</a></p>
+<p>See <a href=/docs/content-management/multilingual/#disable-a-language>Disable a Language</a></p>
 <h6 id=markup>markup <a class=header-link href=#markup><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/getting-started/configuration-markup/>Configure Markup</a>.</p>
+<p>See <a href=/docs/getting-started/configuration-markup/>Configure Markup</a>.</p>
 <h6 id=mediatypes>mediaTypes <a class=header-link href=#mediatypes><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/templates/output-formats/#media-types>Configure Media Types</a>.</p>
+<p>See <a href=/docs/templates/output-formats/#media-types>Configure Media Types</a>.</p>
 <h6 id=menus>menus <a class=header-link href=#menus><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/content-management/menus/#define-in-site-configuration>Menus</a>.</p>
+<p>See <a href=/docs/content-management/menus/#define-in-site-configuration>Menus</a>.</p>
 <h6 id=minify>minify <a class=header-link href=#minify><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/getting-started/configuration/#configure-minify>Configure Minify</a>.</p>
+<p>See <a href=/docs/getting-started/configuration/#configure-minify>Configure Minify</a>.</p>
 <h6 id=module>module <a class=header-link href=#module><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>Module configuration see <a href=/hugo-modules/configuration/>module configuration</a>.</p>
+<p>Module configuration see <a href=/docs/hugo-modules/configuration/>module configuration</a>.</p>
 <h6 id=newcontenteditor>newContentEditor <a class=header-link href=#newcontenteditor><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) The editor to use when creating new content.</p>
 <h6 id=nochmod>noChmod <a class=header-link href=#nochmod><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
@@ -1744,11 +1744,11 @@ json
 <h6 id=notimes>noTimes <a class=header-link href=#notimes><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Don&rsquo;t sync modification time of files. Default is <code>false</code>.</p>
 <h6 id=outputformats>outputFormats <a class=header-link href=#outputformats><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/templates/output-formats/>custom output formats</a>.</p>
+<p>See <a href=/docs/templates/output-formats/>custom output formats</a>.</p>
 <h6 id=pagination>pagination <a class=header-link href=#pagination><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/templates/pagination/#configuration>configure pagination</a>.</p>
+<p>See <a href=/docs/templates/pagination/#configuration>configure pagination</a>.</p>
 <h6 id=permalinks>permalinks <a class=header-link href=#permalinks><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/content-management/urls/#permalinks>Content Management</a>.</p>
+<p>See <a href=/docs/content-management/urls/#permalinks>Content Management</a>.</p>
 <h6 id=pluralizelisttitles>pluralizeListTitles <a class=header-link href=#pluralizelisttitles><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Whether to pluralize automatic list titles. Applicable to section pages. Default is <code>true</code>.</p>
 <h6 id=publishdir>publishDir <a class=header-link href=#publishdir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
@@ -1758,39 +1758,39 @@ json
 <h6 id=reflinksnotfoundurl>refLinksNotFoundURL <a class=header-link href=#reflinksnotfoundurl><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) URL to be used as a placeholder when a page reference cannot be found in <code>ref</code> or <code>relref</code>. Is used as-is.</p>
 <h6 id=related>related <a class=header-link href=#related><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/content-management/related/#configure-related-content>Related Content</a>.</p>
+<p>See <a href=/docs/content-management/related/#configure-related-content>Related Content</a>.</p>
 <h6 id=relativeurls>relativeURLs <a class=header-link href=#relativeurls><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>bool</code>) See <a href=/content-management/urls/#relative-urls>details</a> before enabling this feature. Default is <code>false</code>.</p>
+<p>(<code>bool</code>) See <a href=/docs/content-management/urls/#relative-urls>details</a> before enabling this feature. Default is <code>false</code>.</p>
 <h6 id=rendersegments>renderSegments <a class=header-link href=#rendersegments><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <a class="dib f5 fw6 ba bw1 b--gray ph2 mt1" href=https://github.com/gohugoio/hugo/releases/tag/v0.124.0>New in v0.124.0</a>
-<p>(<code>string slice</code>) A list of segments to render. If not set, everything will be rendered. This is more commonly set in a CLI flag, e.g. <code>hugo --renderSegments segment1,segment2</code>. The segment names must match the names in the <a href=/getting-started/configuration/#configure-segments>segments</a> configuration.</p>
+<p>(<code>string slice</code>) A list of segments to render. If not set, everything will be rendered. This is more commonly set in a CLI flag, e.g. <code>hugo --renderSegments segment1,segment2</code>. The segment names must match the names in the <a href=/docs/getting-started/configuration/#configure-segments>segments</a> configuration.</p>
 <h6 id=removepathaccents>removePathAccents <a class=header-link href=#removepathaccents><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) Removes <a href=https://www.compart.com/en/unicode/category/Mn rel=external>non-spacing marks</a> from <a href=https://en.wikipedia.org/wiki/Precomposed_character rel=external>composite characters</a> in content paths. Default is <code>false</code>.</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-text data-lang=text><span class=line><span class=cl>content/post/hügó.md → https://example.org/post/hugo/
 </span></span></code></pre></div><h6 id=sectionpagesmenu>sectionPagesMenu <a class=header-link href=#sectionpagesmenu><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/content-management/menus/#define-automatically>Menus</a>.</p>
+<p>See <a href=/docs/content-management/menus/#define-automatically>Menus</a>.</p>
 <h6 id=security>security <a class=header-link href=#security><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/about/security/#security-policy>Security Policy</a>.</p>
+<p>See <a href=/docs/about/security/#security-policy>Security Policy</a>.</p>
 <h6 id=segments>segments <a class=header-link href=#segments><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/getting-started/configuration/#configure-segments>Segments</a>.</p>
+<p>See <a href=/docs/getting-started/configuration/#configure-segments>Segments</a>.</p>
 <h6 id=sitemap>sitemap <a class=header-link href=#sitemap><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>Default <a href=/templates/sitemap/#configuration>sitemap configuration</a>.</p>
+<p>Default <a href=/docs/templates/sitemap/#configuration>sitemap configuration</a>.</p>
 <h6 id=summarylength>summaryLength <a class=header-link href=#summarylength><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>int</code>) Applicable to automatic summaries, the approximate number of words to render when calling the <a href=/methods/page/summary/><code>Summary</code></a> method on a <code>Page</code> object. Default is <code>70</code>.</p>
+<p>(<code>int</code>) Applicable to automatic summaries, the approximate number of words to render when calling the <a href=/docs/methods/page/summary/><code>Summary</code></a> method on a <code>Page</code> object. Default is <code>70</code>.</p>
 <h6 id=taxonomies>taxonomies <a class=header-link href=#taxonomies><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/content-management/taxonomies/#configure-taxonomies>Configure Taxonomies</a>.</p>
+<p>See <a href=/docs/content-management/taxonomies/#configure-taxonomies>Configure Taxonomies</a>.</p>
 <h6 id=theme>theme <a class=header-link href=#theme><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>See <a href=/hugo-modules/configuration/#module-configuration-imports>module configuration</a> for how to import a theme.</p>
+<p>See <a href=/docs/hugo-modules/configuration/#module-configuration-imports>module configuration</a> for how to import a theme.</p>
 <h6 id=themesdir>themesDir <a class=header-link href=#themesdir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) The directory where Hugo reads the themes from. Default is <code>themes</code>.</p>
 <h6 id=timeout>timeout <a class=header-link href=#timeout><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) Timeout for generating page contents, specified as a <a href=https://pkg.go.dev/time#Duration rel=external>duration</a> or in seconds. <em>Note:</em> this is used to bail out of recursive content generation. You might need to raise this limit if your pages are slow to generate (e.g., because they require large image processing or depend on remote contents). Default is <code>30s</code>.</p>
 <h6 id=timezone>timeZone <a class=header-link href=#timezone><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>string</code>) The time zone (or location), e.g. <code>Europe/Oslo</code>, used to parse front matter dates without such information and in the <a href=/functions/time/astime/><code>time</code></a> function. The list of valid values may be system dependent, but should include <code>UTC</code>, <code>Local</code>, and any location in the <a href=https://en.wikipedia.org/wiki/List_of_tz_database_time_zones rel=external>IANA Time Zone database</a>.</p>
+<p>(<code>string</code>) The time zone (or location), e.g. <code>Europe/Oslo</code>, used to parse front matter dates without such information and in the <a href=/docs/functions/time/astime/><code>time</code></a> function. The list of valid values may be system dependent, but should include <code>UTC</code>, <code>Local</code>, and any location in the <a href=https://en.wikipedia.org/wiki/List_of_tz_database_time_zones rel=external>IANA Time Zone database</a>.</p>
 <h6 id=title>title <a class=header-link href=#title><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>string</code>) Site title.</p>
 <h6 id=titlecasestyle>titleCaseStyle <a class=header-link href=#titlecasestyle><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
-<p>(<code>string</code>) Default is <code>ap</code>. See <a href=/getting-started/configuration/#configure-title-case>Configure Title Case</a>.</p>
+<p>(<code>string</code>) Default is <code>ap</code>. See <a href=/docs/getting-started/configuration/#configure-title-case>Configure Title Case</a>.</p>
 <h6 id=uglyurls>uglyURLs <a class=header-link href=#uglyurls><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
 <p>(<code>bool</code>) When enabled, creates URL of the form <code>/filename.html</code> instead of <code>/filename/</code>. Default is <code>false</code>.</p>
 <h6 id=watch>watch <a class=header-link href=#watch><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h6>
@@ -1880,22 +1880,22 @@ json
 <dl>
 <dt>buildStats
 <a class="dib f5 fw6 ba bw1 b--gray ph2 mt1" href=https://github.com/gohugoio/hugo/releases/tag/v0.115.1>New in v0.115.1</a></dt>
-<dd>When enabled, creates a <code>hugo_stats.json</code> file in the root of your project. This file contains arrays of the <code>class</code> attributes, <code>id</code> attributes, and tags of every HTML element within your published site. Use this file as data source when <a href=/hugo-pipes/postprocess/#css-purging-with-postcss>removing unused CSS</a> from your site. This process is also known as pruning, purging, or tree shaking.</dd>
+<dd>When enabled, creates a <code>hugo_stats.json</code> file in the root of your project. This file contains arrays of the <code>class</code> attributes, <code>id</code> attributes, and tags of every HTML element within your published site. Use this file as data source when <a href=/docs/hugo-pipes/postprocess/#css-purging-with-postcss>removing unused CSS</a> from your site. This process is also known as pruning, purging, or tree shaking.</dd>
 </dl>
 <p>Exclude <code>class</code> attributes, <code>id</code> attributes, or tags from <code>hugo_stats.json</code> with the <code>disableClasses</code>, <code>disableIDs</code>, and <code>disableTags</code> keys.</p>
 <aside>
 <div class="admonition-content bl bw2 b--blue">
 <p>With v0.115.0 and earlier this feature was enabled by setting <code>writeStats</code> to <code>true</code>. Although still functional, the <code>writeStats</code> key will be deprecated in a future release.</p>
-<p>Given that CSS purging is typically limited to production builds, place the <code>buildStats</code> object below <a href=/getting-started/configuration/#configuration-directory>config/production</a>.</p>
+<p>Given that CSS purging is typically limited to production builds, place the <code>buildStats</code> object below <a href=/docs/getting-started/configuration/#configuration-directory>config/production</a>.</p>
 <p>Built for speed, there may be &ldquo;false positive&rdquo; detections (e.g., HTML elements that are not HTML elements) while parsing the published site. These &ldquo;false positives&rdquo; are infrequent and inconsequential.</p>
 </div>
 </aside>
 <p>Due to the nature of partial server builds, new HTML entities are added while the server is running, but old values will not be removed until you restart the server or run a regular <code>hugo</code> build.</p>
 <dl>
 <dt>cachebusters</dt>
-<dd>See <a href=/getting-started/configuration/#configure-cache-busters>Configure Cache Busters</a></dd>
+<dd>See <a href=/docs/getting-started/configuration/#configure-cache-busters>Configure Cache Busters</a></dd>
 <dt>noJSConfigInAssets</dt>
-<dd>Turn off writing a <code>jsconfig.json</code> into your <code>/assets</code> folder with mapping of imports from running <a href=/hugo-pipes/js/>js.Build</a>. This file is intended to help with intellisense/navigation inside code editors such as <a href=https://code.visualstudio.com/ rel=external>VS Code</a>. Note that if you do not use <code>js.Build</code>, no file will be written.</dd>
+<dd>Turn off writing a <code>jsconfig.json</code> into your <code>/assets</code> folder with mapping of imports from running <a href=/docs/hugo-pipes/js/>js.Build</a>. This file is intended to help with intellisense/navigation inside code editors such as <a href=https://code.visualstudio.com/ rel=external>VS Code</a>. Note that if you do not use <code>js.Build</code>, no file will be written.</dd>
 <dt>useResourceCacheWhen</dt>
 <dd>When to use the cached resources in <code>/resources/_gen</code> for PostCSS and ToCSS. Valid values are <code>never</code>, <code>always</code> and <code>fallback</code>. The last value means that the cache will be tried if PostCSS/extended version is not available.</dd>
 </dl>
@@ -2174,7 +2174,7 @@ json
 <p>Setting <code>force=true</code> will make a redirect even if there is existing content in the path. Note that before Hugo 0.76 <code>force</code> was the default behavior, but this is inline with how Netlify does it.</p>
 <h2 id=_404-server-error-page>404 server error page <a class=header-link href=#_404-server-error-page><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h2>
 <a class="dib f5 fw6 ba bw1 b--gray ph2 mt1" href=https://github.com/gohugoio/hugo/releases/tag/v0.103.0>New in v0.103.0</a>
-<p>Hugo will, by default, render all 404 errors when running <code>hugo server</code> with the <code>404.html</code> template. Note that if you have already added one or more redirects to your <a href=/getting-started/configuration/#configure-server>server configuration</a>, you need to add the 404 redirect explicitly, e.g:</p>
+<p>Hugo will, by default, render all 404 errors when running <code>hugo server</code> with the <code>404.html</code> template. Note that if you have already added one or more redirects to your <a href=/docs/getting-started/configuration/#configure-server>server configuration</a>, you need to add the 404 redirect explicitly, e.g:</p>
 <div class="code relative" id=config/development/server>
 <div class="code-nav flex flex-nowrap items-stretch">
 <div class="san-serif f6 dib lh-solid pl2 pv2 mr2">
@@ -2355,7 +2355,7 @@ json
 </div>
 </div>
 <h2 id=configure-title-case>Configure title case <a class=header-link href=#configure-title-case><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h2>
-<p>By default, Hugo follows the capitalization rules published in the <a href=https://www.apstylebook.com/ rel=external>Associated Press Stylebook</a> when creating automatic section titles, and when transforming strings with the <a href=/functions/strings/title/><code>strings.Title</code></a> function.</p>
+<p>By default, Hugo follows the capitalization rules published in the <a href=https://www.apstylebook.com/ rel=external>Associated Press Stylebook</a> when creating automatic section titles, and when transforming strings with the <a href=/docs/functions/strings/title/><code>strings.Title</code></a> function.</p>
 <p>Change this behavior by setting <code>titleCaseStyle</code> in your site configuration to any of the values below:</p>
 <dl>
 <dt>ap</dt>
@@ -2374,7 +2374,7 @@ json
 <dt>DART_SASS_BINARY</dt>
 <dd>(<code>string</code>) The absolute path to the Dart Sass executable. By default, Hugo searches for the executable in each of the paths in the <code>PATH</code> environment variable.</dd>
 <dt>HUGO_ENVIRONMENT</dt>
-<dd>(<code>string</code>) Overrides the default <a href=/getting-started/glossary/#environment>environment</a>, typically one of <code>development</code>, <code>staging</code>, or <code>production</code>.</dd>
+<dd>(<code>string</code>) Overrides the default <a href=/docs/getting-started/glossary/#environment>environment</a>, typically one of <code>development</code>, <code>staging</code>, or <code>production</code>.</dd>
 </dl>
 <dl>
 <dt>HUGO_FILE_LOG_FORMAT</dt>
@@ -2402,7 +2402,7 @@ json
 <h2 id=ignore-content-and-data-files-when-rendering>Ignore content and data files when rendering <a class=header-link href=#ignore-content-and-data-files-when-rendering><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h2>
 <aside>
 <div class="admonition-content bl bw2 b--blue">
-<p>This works, but we recommend you use the newer and more powerful <a href=/hugo-modules/configuration/#module-configuration-mounts>includeFiles and excludeFiles</a> mount options.</p>
+<p>This works, but we recommend you use the newer and more powerful <a href=/docs/hugo-modules/configuration/#module-configuration-mounts>includeFiles and excludeFiles</a> mount options.</p>
 </div>
 </aside>
 <p>To exclude specific files from the <code>content</code>, <code>data</code>, and <code>i18n</code> directories when rendering your site, set <code>ignoreFiles</code> to one or more regular expressions to match against the absolute file path.</p>
@@ -2986,7 +2986,7 @@ json
 <h3 id=the-keywords-explained>The keywords explained <a class=header-link href=#the-keywords-explained><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h3>
 <dl>
 <dt>cacheDir</dt>
-<dd>(<code>string</code>) See <a href=/getting-started/configuration/#configure-cachedir>Configure cacheDir</a>.</dd>
+<dd>(<code>string</code>) See <a href=/docs/getting-started/configuration/#configure-cachedir>Configure cacheDir</a>.</dd>
 <dt>project</dt>
 <dd>(<code>string</code>) The base directory name of the current Hugo project. This means that, in its default setting, every project will have separated file caches, which means that when you do <code>hugo --gc</code> you will not touch files related to other Hugo projects running on the same PC.</dd>
 <dt>resourceDir</dt>
@@ -2997,7 +2997,7 @@ json
 <dd>(<code>string</code>) The absolute path to where the files for this cache will be stored. Allowed starting placeholders are <code>:cacheDir</code> and <code>:resourceDir</code> (see above).</dd>
 </dl>
 <h2 id=configure-cachedir>Configure cacheDir <a class=header-link href=#configure-cachedir><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h2>
-<p>This is the directory where Hugo by default will store its file caches. See <a href=/getting-started/configuration/#configure-file-caches>Configure File Caches</a>.</p>
+<p>This is the directory where Hugo by default will store its file caches. See <a href=/docs/getting-started/configuration/#configure-file-caches>Configure File Caches</a>.</p>
 <p>This can be set using the <code>cacheDir</code> config option or via the OS environment variable <code>HUGO_CACHEDIR</code>.</p>
 <p>If this is not set, Hugo will use, in order of preference:</p>
 <ol>
@@ -3009,18 +3009,18 @@ json
 <p>If you want to know the current value of <code>cacheDir</code>, you can run <code>hugo config</code>, e.g: <code>hugo config | grep cachedir</code>.</p>
 <h2 id=configure-http-cache>Configure HTTP cache <a class=header-link href=#configure-http-cache><svg class="fill-current o-60 hover-accent-color-light" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"/></svg></a></h2>
 <a class="dib f5 fw6 ba bw1 b--gray ph2 mt1" href=https://github.com/gohugoio/hugo/releases/tag/v0.127.0>New in v0.127.0</a>
-<p>Note that this configuration is currently only relevant when using the <a href=/functions/resources/getremote/>resources.GetRemote</a> function.</p>
+<p>Note that this configuration is currently only relevant when using the <a href=/docs/functions/resources/getremote/>resources.GetRemote</a> function.</p>
 <p>The caching in Hugo is layered:</p>
 <div class="goat svg-container w-40">
 <svg xmlns="http://www.w3.org/2000/svg" font-family="Menlo,Lucida Console,monospace" viewBox="0 0 128 217"><g transform="translate(8,16)"><path d="M16 0H96" fill="none" stroke="currentcolor"/><path d="M16 32H56" fill="none" stroke="currentcolor"/><path d="M56 32H96" fill="none" stroke="currentcolor"/><path d="M16 80H88" fill="none" stroke="currentcolor"/><path d="M16 112H56" fill="none" stroke="currentcolor"/><path d="M56 112H88" fill="none" stroke="currentcolor"/><path d="M16 160H88" fill="none" stroke="currentcolor"/><path d="M16 192H56" fill="none" stroke="currentcolor"/><path d="M56 192H88" fill="none" stroke="currentcolor"/><path d="M56 32V64" fill="none" stroke="currentcolor"/><path d="M56 112v32" fill="none" stroke="currentcolor"/><path d="M56 64v8" fill="none" stroke="currentcolor"/><polygon points="72.000000,64.000000 60.000000,58.400002 60.000000,69.599998" fill="currentcolor" transform="rotate(90.000000, 56.000000, 64.000000)"/><path d="M56 144v8" fill="none" stroke="currentcolor"/><polygon points="72.000000,144.000000 60.000000,138.399994 60.000000,149.600006" fill="currentcolor" transform="rotate(90.000000, 56.000000, 144.000000)"/><path d="M16 0A16 16 0 000 16" fill="none" stroke="currentcolor"/><path d="M96 0a16 16 0 0116 16" fill="none" stroke="currentcolor"/><path d="M0 16A16 16 0 0016 32" fill="none" stroke="currentcolor"/><path d="M112 16A16 16 0 0196 32" fill="none" stroke="currentcolor"/><path d="M16 80A16 16 0 000 96" fill="none" stroke="currentcolor"/><path d="M88 80a16 16 0 0116 16" fill="none" stroke="currentcolor"/><path d="M0 96a16 16 0 0016 16" fill="none" stroke="currentcolor"/><path d="M104 96A16 16 0 0188 112" fill="none" stroke="currentcolor"/><path d="M16 160A16 16 0 000 176" fill="none" stroke="currentcolor"/><path d="M88 160a16 16 0 0116 16" fill="none" stroke="currentcolor"/><path d="M0 176a16 16 0 0016 16" fill="none" stroke="currentcolor"/><path d="M104 176A16 16 0 0188 192" fill="none" stroke="currentcolor"/><text text-anchor="middle" x="16" y="100" fill="currentcolor" style="font-size:1em">H</text><text text-anchor="middle" x="16" y="180" fill="currentcolor" style="font-size:1em">f</text><text text-anchor="middle" x="24" y="20" fill="currentcolor" style="font-size:1em">d</text><text text-anchor="middle" x="24" y="100" fill="currentcolor" style="font-size:1em">T</text><text text-anchor="middle" x="24" y="180" fill="currentcolor" style="font-size:1em">i</text><text text-anchor="middle" x="32" y="20" fill="currentcolor" style="font-size:1em">y</text><text text-anchor="middle" x="32" y="100" fill="currentcolor" style="font-size:1em">T</text><text text-anchor="middle" x="32" y="180" fill="currentcolor" style="font-size:1em">l</text><text text-anchor="middle" x="40" y="20" fill="currentcolor" style="font-size:1em">n</text><text text-anchor="middle" x="40" y="100" fill="currentcolor" style="font-size:1em">P</text><text text-anchor="middle" x="40" y="180" fill="currentcolor" style="font-size:1em">e</text><text text-anchor="middle" x="48" y="20" fill="currentcolor" style="font-size:1em">a</text><text text-anchor="middle" x="56" y="20" fill="currentcolor" style="font-size:1em">c</text><text text-anchor="middle" x="56" y="100" fill="currentcolor" style="font-size:1em">c</text><text text-anchor="middle" x="56" y="180" fill="currentcolor" style="font-size:1em">c</text><text text-anchor="middle" x="64" y="20" fill="currentcolor" style="font-size:1em">a</text><text text-anchor="middle" x="64" y="100" fill="currentcolor" style="font-size:1em">a</text><text text-anchor="middle" x="64" y="180" fill="currentcolor" style="font-size:1em">a</text><text text-anchor="middle" x="72" y="20" fill="currentcolor" style="font-size:1em">c</text><text text-anchor="middle" x="72" y="100" fill="currentcolor" style="font-size:1em">c</text><text text-anchor="middle" x="72" y="180" fill="currentcolor" style="font-size:1em">c</text><text text-anchor="middle" x="80" y="20" fill="currentcolor" style="font-size:1em">h</text><text text-anchor="middle" x="80" y="100" fill="currentcolor" style="font-size:1em">h</text><text text-anchor="middle" x="80" y="180" fill="currentcolor" style="font-size:1em">h</text><text text-anchor="middle" x="88" y="20" fill="currentcolor" style="font-size:1em">e</text><text text-anchor="middle" x="88" y="100" fill="currentcolor" style="font-size:1em">e</text><text text-anchor="middle" x="88" y="180" fill="currentcolor" style="font-size:1em">e</text></g></svg>
 </div>
 <dl>
 <dt>Dynacache</dt>
-<dd>A in memory LRU cache that gets evicted on changes, <a href=/getting-started/configuration/#configure-cache-busters>Cache Buster</a> matches and in low memory situations.</dd>
+<dd>A in memory LRU cache that gets evicted on changes, <a href=/docs/getting-started/configuration/#configure-cache-busters>Cache Buster</a> matches and in low memory situations.</dd>
 <dt>HTTP Cache</dt>
-<dd>Enables HTTP cache behavior (RFC 9111) for remote resources. This works best for resources with properly set up HTTP cache headers. The HTTP cache uses the <a href=/getting-started/configuration/#configure-file-caches>file cache</a> to store and serve cached resources.</dd>
+<dd>Enables HTTP cache behavior (RFC 9111) for remote resources. This works best for resources with properly set up HTTP cache headers. The HTTP cache uses the <a href=/docs/getting-started/configuration/#configure-file-caches>file cache</a> to store and serve cached resources.</dd>
 <dt>File Cache</dt>
-<dd>See <a href=/getting-started/configuration/#configure-file-caches>file cache</a>.</dd>
+<dd>See <a href=/docs/getting-started/configuration/#configure-file-caches>file cache</a>.</dd>
 </dl>
 <p>The default HTTP cache disables everything:</p>
 <div class="code relative" id=hugo>
@@ -3104,7 +3104,7 @@ json
 </div>
 <dl>
 <dt>caching</dt>
-<dd>Enabled RFC 9111 cache behavior <em>for</em> a configured set of resources. Stale resources will be refreshed from the <a href=/getting-started/configuration/#configure-file-caches>file cache</a> even if their configured TTL isn&rsquo;t reached.</dd>
+<dd>Enabled RFC 9111 cache behavior <em>for</em> a configured set of resources. Stale resources will be refreshed from the <a href=/docs/getting-started/configuration/#configure-file-caches>file cache</a> even if their configured TTL isn&rsquo;t reached.</dd>
 <dt>polling</dt>
 <dd>Enables polling <em>for</em> a set of resources. Note that you can enable polling for resources even if HTTP caching is disabled. This setting is only used when in watch mode (e.g. <code>hugo server</code>). When a changed resource is detected, that change triggers a rebuild of pages using that resource.</dd>
 </dl>
@@ -3125,13 +3125,13 @@ always available.</p>
 <p>The fields that can be used in the filters are:</p>
 <dl>
 <dt>path</dt>
-<dd>The logical page <a href=/methods/page/path/>path</a>.</dd>
+<dd>The logical page <a href=/docs/methods/page/path/>path</a>.</dd>
 <dt>lang</dt>
-<dd>The <a href=/methods/page/language/>page language</a>.</dd>
+<dd>The <a href=/docs/methods/page/language/>page language</a>.</dd>
 <dt>kind</dt>
-<dd>The <a href=/getting-started/glossary/#page-kind>kind</a> of the page.</dd>
+<dd>The <a href=/docs/getting-started/glossary/#page-kind>kind</a> of the page.</dd>
 <dt>output</dt>
-<dd>The <a href=/getting-started/glossary/#output-format>output format</a> of the page.</dd>
+<dd>The <a href=/docs/getting-started/glossary/#output-format>output format</a> of the page.</dd>
 </dl>
 <p>It is recommended to put coarse grained filters (e.g. for language and output format) in the excludes section, e.g.:</p>
 <div class="code relative" id=hugo>
@@ -3207,7 +3207,7 @@ json
 </div>
 </div>
 </div>
-<p>With the above you can render only the pages in <code>segment1</code> by configuring the <a href=/getting-started/configuration/#rendersegments>renderSegments</a> or setting the <code>--renderSegments</code> flag:</p>
+<p>With the above you can render only the pages in <code>segment1</code> by configuring the <a href=/docs/getting-started/configuration/#rendersegments>renderSegments</a> or setting the <code>--renderSegments</code> flag:</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>hugo --renderSegments segment1
 </span></span></code></pre></div><p>Multiple segments can be configured, and the <code>--renderSegments</code> flag can take a comma separated list of segments.</p>
 <p>Some use cases for this feature:</p>
@@ -3220,11 +3220,11 @@ json
 </div>
 <h2>See also</h2>
 <ul>
-<li><a href=/content-management/front-matter/>Front matter</a></li>
-<li><a href=/getting-started/glossary/>Glossary of terms</a></li>
-<li><a href=/content-management/data-sources/>Data sources</a></li>
-<li><a href=/methods/taxonomy/alphabetical/>Alphabetical</a></li>
-<li><a href=/methods/page/alternativeoutputformats/>AlternativeOutputFormats</a></li>
+<li><a href=/docs/content-management/front-matter/>Front matter</a></li>
+<li><a href=/docs/getting-started/glossary/>Glossary of terms</a></li>
+<li><a href=/docs/content-management/data-sources/>Data sources</a></li>
+<li><a href=/docs/methods/taxonomy/alphabetical/>Alphabetical</a></li>
+<li><a href=/docs/methods/page/alternativeoutputformats/>AlternativeOutputFormats</a></li>
 </ul>
 </div>
 </div>
@@ -3232,10 +3232,10 @@ json
 <aside class="right-0 f6 pv4 pv0-ns ph4-l nested-list-reset nested-copy-line-height">
 <div class=nested-links>
 <div date-pref>
-<a href=https://gohugo.io/getting-started/directory-structure/ class="dib f6 pl1 hover-bg-light-gray br-100" title="Directory structure ">
+<a href=https://mc.is-local.org/docs/getting-started/directory-structure/ class="dib f6 pl1 hover-bg-light-gray br-100" title="Directory structure ">
 <svg class="fill-current" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
 </a>
-<a href=https://gohugo.io/getting-started/configuration-markup/ class="dib f6 pr1 hover-bg-light-gray br-100" title="Configure markup">
+<a href=https://mc.is-local.org/docs/getting-started/configuration-markup/ class="dib f6 pr1 hover-bg-light-gray br-100" title="Configure markup">
 <svg class="fill-current" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
 </a>
 </div>
@@ -3327,12 +3327,12 @@ Your Company?
 <div class="bg-primary-color-dark bottom-0 left-0 right-0 dn-l fixed pb3 ph3 pt3 w-100 z-2"><div class="globalmenu mobilemenu pb1 dn">
 <ul class="list hidden dib ph0 scrolling-touch tc">
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/news/ class="ttu f6 link primary-color-light overflow hover-white db brand-font ma0 w-100 pv3 ph4">
+<a href=/docs/news/ class="ttu f6 link primary-color-light overflow hover-white db brand-font ma0 w-100 pv3 ph4">
 News
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/documentation/ class="ttu f6 link primary-color-light overflow hover-white db brand-font ma0 w-100 pv3 ph4">
+<a href=/docs/documentation/ class="ttu f6 link primary-color-light overflow hover-white db brand-font ma0 w-100 pv3 ph4">
 Docs
 </a>
 </li>
@@ -3342,7 +3342,7 @@ Themes
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/showcase/ class="ttu f6 link primary-color-light overflow hover-white db brand-font ma0 w-100 pv3 ph4">
+<a href=/docs/showcase/ class="ttu f6 link primary-color-light overflow hover-white db brand-font ma0 w-100 pv3 ph4">
 Showcase
 </a>
 </li>
@@ -3361,87 +3361,87 @@ GitHub
 <div class="docsmenu mobilemenu pb1 dn">
 <ul class="list dib ph0 scrolling-touch tc">
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/about/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/about/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 About
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/installation/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/installation/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Installation
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/getting-started/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/getting-started/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Getting started
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
-<a href=/quick-reference/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/quick-reference/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Quick reference
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/content-management/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/content-management/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Content management
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/templates/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/templates/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Templates
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/functions/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/functions/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Functions
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/methods/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/methods/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Methods
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/render-hooks/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/render-hooks/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Render hooks
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/hugo-modules/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/hugo-modules/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Hugo Modules
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/hugo-pipes/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/hugo-pipes/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Hugo Pipes
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
-<a href=/commands/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/commands/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 CLI
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/troubleshooting/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/troubleshooting/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Troubleshooting
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/tools/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/tools/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Developer tools
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/hosting-and-deployment/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/hosting-and-deployment/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Hosting and deployment
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
-<a href=/contribute/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/contribute/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Contribute
 </a>
 </li>
 <li class="tl dib ma0 hover-bg-black w-100">
-<a href=/maintenance/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
+<a href=/docs/maintenance/ class="ttu f6 link primary-color-light hover-white db brand-font mb1 ma0 w-100 pv2 ph4">
 Maintenance
 </a>
 </li>
