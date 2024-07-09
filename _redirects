@@ -113,6 +113,8 @@
 /extras/datadrivencontent/         	/docs/content-management/data-sources/
 /doc/datafiles/                    	/docs/content-management/data-sources/
 /templates/data-templates/         	/docs/content-management/data-sources/
+/showcase/aloralabs/               	/docs/showcase/alora-labs/
+/showcase/1password/               	/docs/showcase/1password-support/
 /functions/adddate                 	/docs/methods/time/adddate/
 /functions/float                   	/docs/functions/cast/tofloat/
 /functions/int                     	/docs/functions/cast/toint/
@@ -184,6 +186,7 @@
 /functions/lang.merge              	/docs/functions/lang/merge/
 /functions/i18n                    	/docs/functions/lang/translate/
 /functions/len                     	/docs/functions/go-template/len/
+/release-notes/                    	/docs/news/
 /functions/fileexists              	/docs/functions/os/fileexists/
 /functions/getenv                  	/docs/functions/os/getenv/
 /functions/readdir                 	/docs/functions/os/readdir/
